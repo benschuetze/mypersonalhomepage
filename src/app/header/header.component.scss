@@ -1,0 +1,29 @@
+header {
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+
+    img {
+        height: 50px;
+    }
+
+    a {
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 32px;
+
+        &:hover {
+            color: rgba(255,255,255,0.8);
+        }
+    }
+}
+
